@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({length}) => {
   return (
     <footer>
-        <p>Copyright @ 2021</p>
+        <p>{length} list items</p>
     </footer>
   )
 }
